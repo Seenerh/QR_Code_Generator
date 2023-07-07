@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.qr-code {
+  text-align: center;
+}
+
+.qr-code h2 {
+  margin-top: 0;
+}
+
+.qr-code #qrcode {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: 70px;
+}
